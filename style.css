@@ -1,0 +1,135 @@
+h1 {
+  font-weight: bolder;
+  color: #595260;
+  font-size: 10rem;
+}
+
+body {
+  font-weight: bolder;
+  color: #595260;
+  font-family: 'Space Mono', monospace;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+  /* navbar */
+  .navbar {
+    background-color: #E4D1B9;
+    padding: 0% 13%;
+    font-family: 'Space Mono', monospace;
+    font-weight: bolder;
+  }
+
+  /* #body-heading { */
+  .background {
+    background-image: url("https://images.unsplash.com/photo-1546900703-cf06143d1239?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1150&q=80");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+  }
+
+  .container-2 {
+    height: 10px;
+    padding: 1%;
+  }
+
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .text-sm-start {
+    margin-left: 60px;
+    margin-top: 50px;
+    color: #EEEDDE;
+    padding-top: 50px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bolder;
+    font-size: 10rem;
+  }
+
+  .about {
+    padding-top: 40px;
+    background-color: #E1E8EB;
+    height: 800px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bolder;
+    line-height: 200%;
+  }
+
+  .about-image {
+    border-radius: 100%;
+  }
+
+  .col-md-6 {
+    text-align: center;
+  }
+
+  .skills {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-weight: bolder;
+  }
+
+  #skills {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    line-height: 200%;
+      background-color: #E1E8EB;
+  }
+
+.skill-table{
+  background-color: #E1E8EB;
+}
+  #contact-1 {
+    background-color: #E1E8EB;
+    width: 50%;
+  }
+
+  .contact-1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #E1E8EB;
+    font-family: 'Space Mono', monospace;
+    font-weight: bolder;
+  }
+
+  .contact {
+    padding-bottom: 100px;
+  }
+
+  .contact-4 {
+    /* visibility: hidden; */
+    /* position: absolute;
+  left: 20%; */
+  }
+
+  #floatingPassword {
+    width: 200px;
+    text-align: center;
+  }
+
+  #floatingInput {
+    width: 200px;
+  }
+
+  /* ------------------------DOM------------------ */
+
+  .highlight {
+    color: #595260;
+    background-color: black;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+@media  screen and (max-width: 700px) {
+  img {max-width: 50%;
+  }
+}
